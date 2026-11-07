@@ -337,7 +337,7 @@ window.WORKS = [
   {title: "Moulin Rouge", type: "Theme event", cat: "Broadcast & entertainment", images: [
     {src: "images/moulin-set.webp", thumb: "thumbs/moulin-set.webp", w: 1598, h: 799},
   ]},
-  {title: "Queens", type: "Theme event", cat: "Broadcast & entertainment", images: [
+  {title: "Queens of Comedy", type: "Showtime Networks", cat: "Broadcast & entertainment", images: [
     {src: "images/newqueens.webp", thumb: "thumbs/newqueens.webp", w: 2500, h: 977},
   ]},
   {title: "GreenLook", type: "General session", cat: "Corporate", images: [
