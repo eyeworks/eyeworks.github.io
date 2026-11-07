@@ -103,6 +103,7 @@ window.WORKS = [
     {src: "images/weworks-10.webp", thumb: "thumbs/weworks-10.webp", w: 2250, h: 938},
   ]},
   {title: "ADP President's Club", type: "Awards and general session", cat: "Corporate", images: [
+    {src: "images/adp-pc-26.webp", thumb: "thumbs/adp-pc-26.webp", w: 2500, h: 1250},
     {src: "images/adp-25.webp", thumb: "thumbs/adp-25.webp", w: 2500, h: 1408},
     {src: "images/adp3.webp", thumb: "thumbs/adp3.webp", w: 2500, h: 1250},
     {src: "images/adp5.webp", thumb: "thumbs/adp5.webp", w: 2500, h: 1250},
