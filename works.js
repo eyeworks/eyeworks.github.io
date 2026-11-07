@@ -234,7 +234,7 @@ window.WORKS = [
     {src: "images/exclaim-abc-isocam-1-2.webp", thumb: "thumbs/exclaim-abc-isocam-1-2.webp", w: 2500, h: 1199},
   ]},
   {title: "Moulin Rouge", type: "Theme event", cat: "Broadcast & entertainment", images: [
-    {src: "images/moulin-set.webp", thumb: "thumbs/moulin-set.webp", w: 1000, h: 500},
+    {src: "images/moulin-set.webp", thumb: "thumbs/moulin-set.webp", w: 1598, h: 799},
   ]},
   {title: "Cuba", type: "Theme event", cat: "Broadcast & entertainment", images: [
     {src: "images/cuba.webp", thumb: "thumbs/cuba.webp", w: 1000, h: 500},
