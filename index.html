@@ -47,11 +47,11 @@ a{color:inherit}
 header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--house) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--rig)}
 header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:14px}
 .logo{display:block;color:var(--key);text-decoration:none;line-height:0}
-.logo svg{height:34px;width:auto}
+.logo svg{height:46px;width:auto}
 nav.main{display:flex;gap:28px}
 nav.main a{font:600 12px/1 var(--display);font-stretch:118%;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;color:var(--spill);padding-block:8px;transition:color .2s}
 nav.main a:hover{color:var(--key)}
-@media (max-width:640px){nav.main{gap:16px} nav.main a{letter-spacing:.1em;font-size:11px} .logo svg{height:26px}}
+@media (max-width:640px){nav.main{gap:16px} nav.main a{letter-spacing:.1em;font-size:11px} .logo svg{height:36px}}
 @media (max-width:420px){nav.main a[href="#reel"]{display:none}}
 
 /* hero */
@@ -207,7 +207,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
 
 <main id="top">
   <div class="hero" id="hero">
-    <video id="heroVid" src="video/sizzle-hero.mp4" poster="video/sizzle-poster.jpg" autoplay muted loop playsinline preload="auto" disablepictureinpicture aria-label="Avalon Eyeworks sizzle reel"></video>
+    <video id="heroVid" src="video/sizzle-hero.mp4?v=202611071631" poster="video/sizzle-poster.jpg?v=202611071631" autoplay muted loop playsinline preload="auto" disablepictureinpicture aria-label="Avalon Eyeworks sizzle reel"></video>
   </div>
 
   <div class="wrap intro">
@@ -271,8 +271,8 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
   <div class="strip" id="vStrip"></div>
 </div>
 
-<script src="logos.js?v=202611071521"></script>
-<script src="works.js?v=202611071521"></script>
+<script src="logos.js?v=202611071631"></script>
+<script src="works.js?v=202611071631"></script>
 <script>
 (function(){
 const W = window.WORKS || [], R = window.REEL || [];
