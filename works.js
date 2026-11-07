@@ -336,8 +336,8 @@ window.WORKS = [
   {title: "Queens of Comedy", type: "Showtime Networks", cat: "Broadcast & entertainment", images: [
     {src: "images/newqueens.webp", thumb: "thumbs/newqueens.webp", w: 2500, h: 977},
   ]},
-  {title: "GreenLook", type: "General session", cat: "Corporate", images: [
-    {src: "images/greenlook-rev1-screen.webp", thumb: "thumbs/greenlook-rev1-screen.webp", w: 1800, h: 750},
+  {title: "Price Waterhouse", type: "General session", cat: "Corporate", images: [
+    {src: "images/price-waterhouse.webp", thumb: "thumbs/price-waterhouse.webp", w: 1800, h: 750},
   ]},
 ];
 
