@@ -76,12 +76,12 @@ window.WORKS = [
     {src: "images/vista24-v2-cam2-rev1.webp", thumb: "thumbs/vista24-v2-cam2-rev1.webp", w: 2500, h: 1256},
     {src: "images/vista-concepfive-a-cam2.webp", thumb: "thumbs/vista-concepfive-a-cam2.webp", w: 2500, h: 1250},
   ]},
-  {title: "BI", type: "General session", cat: "Corporate", images: [
-    {src: "images/bi-1.webp", thumb: "thumbs/bi-1.webp", w: 2500, h: 986},
-    {src: "images/bi-2.webp", thumb: "thumbs/bi-2.webp", w: 2500, h: 903},
-    {src: "images/bi-3.webp", thumb: "thumbs/bi-3.webp", w: 2500, h: 1580},
-    {src: "images/bi-4.webp", thumb: "thumbs/bi-4.webp", w: 2500, h: 1580},
-    {src: "images/bi-5.webp", thumb: "thumbs/bi-5.webp", w: 2500, h: 858},
+  {title: "Boehringer Ingelheim", type: "General session", cat: "Corporate", images: [
+    {src: "images/boehringer-ingelheim-1.webp", thumb: "thumbs/boehringer-ingelheim-1.webp", w: 2500, h: 986},
+    {src: "images/boehringer-ingelheim-2.webp", thumb: "thumbs/boehringer-ingelheim-2.webp", w: 2500, h: 903},
+    {src: "images/boehringer-ingelheim-3.webp", thumb: "thumbs/boehringer-ingelheim-3.webp", w: 2500, h: 1580},
+    {src: "images/boehringer-ingelheim-4.webp", thumb: "thumbs/boehringer-ingelheim-4.webp", w: 2500, h: 1580},
+    {src: "images/boehringer-ingelheim-5.webp", thumb: "thumbs/boehringer-ingelheim-5.webp", w: 2500, h: 858},
   ]},
   {title: "Ernst & Young", type: "General session", cat: "Corporate", images: [
     {src: "images/ernst-young.webp", thumb: "thumbs/ernst-young.webp", w: 2500, h: 1000},
