@@ -330,10 +330,6 @@ window.WORKS = [
     {src: "images/eyeworksrandk.webp", thumb: "thumbs/eyeworksrandk.webp", w: 2500, h: 1095},
     {src: "images/regis-kelly-blue.webp", thumb: "thumbs/regis-kelly-blue.webp", w: 2500, h: 1232},
   ]},
-  {title: "ABC", type: "Television", cat: "Broadcast & entertainment", images: [
-    {src: "images/exclaim-abc-housecam-1-1.webp", thumb: "thumbs/exclaim-abc-housecam-1-1.webp", w: 2500, h: 866},
-    {src: "images/exclaim-abc-isocam-1-2.webp", thumb: "thumbs/exclaim-abc-isocam-1-2.webp", w: 2500, h: 1199},
-  ]},
   {title: "Moulin Rouge", type: "Theme event", cat: "Broadcast & entertainment", images: [
     {src: "images/moulin-set.webp", thumb: "thumbs/moulin-set.webp", w: 1598, h: 799},
   ]},
