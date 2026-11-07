@@ -5,7 +5,6 @@
    w and h are the full image's pixel size (keeps the grid steady while loading).
    hero: true puts that project's first image in the rotating banner at the top.
    ADD A REEL VIDEO: add ["Title", "vimeo id"] to REEL. */
-
 window.WORKS = [
   {title: "LIV Golf", type: "Launch", cat: "Corporate", hero: true, images: [
     {src: "images/livgolf-launch.webp", thumb: "thumbs/livgolf-launch.webp", w: 2500, h: 1250},
@@ -39,6 +38,8 @@ window.WORKS = [
     {src: "images/unnamed-12.webp", thumb: "thumbs/unnamed-12.webp", w: 1800, h: 1350},
     {src: "images/unnamed-8.webp", thumb: "thumbs/unnamed-8.webp", w: 1800, h: 822},
     {src: "images/backgroundplate.webp", thumb: "thumbs/backgroundplate.webp", w: 2500, h: 1667},
+    {src: "images/telemundo-upfront-2.webp", thumb: "thumbs/telemundo-upfront-2.webp", w: 2250, h: 749},
+    {src: "images/telemundo-upfront-3.webp", thumb: "thumbs/telemundo-upfront-3.webp", w: 2250, h: 1050},
   ]},
   {title: "Expedia Explore", type: "General session", cat: "Corporate", hero: true, images: [
     {src: "images/expedia24-cam1-rev3.webp", thumb: "thumbs/expedia24-cam1-rev3.webp", w: 2500, h: 1406},
@@ -75,6 +76,32 @@ window.WORKS = [
     {src: "images/vista24-v2-cam2-rev1.webp", thumb: "thumbs/vista24-v2-cam2-rev1.webp", w: 2500, h: 1256},
     {src: "images/vista-concepfive-a-cam2.webp", thumb: "thumbs/vista-concepfive-a-cam2.webp", w: 2500, h: 1250},
   ]},
+  {title: "BI", type: "General session", cat: "Corporate", images: [
+    {src: "images/bi-1.webp", thumb: "thumbs/bi-1.webp", w: 2500, h: 986},
+    {src: "images/bi-2.webp", thumb: "thumbs/bi-2.webp", w: 2500, h: 903},
+    {src: "images/bi-3.webp", thumb: "thumbs/bi-3.webp", w: 2500, h: 1580},
+    {src: "images/bi-4.webp", thumb: "thumbs/bi-4.webp", w: 2500, h: 1580},
+    {src: "images/bi-5.webp", thumb: "thumbs/bi-5.webp", w: 2500, h: 858},
+  ]},
+  {title: "Ernst & Young", type: "General session", cat: "Corporate", images: [
+    {src: "images/ernst-young.webp", thumb: "thumbs/ernst-young.webp", w: 2500, h: 1000},
+  ]},
+  {title: "Boston Scientific", type: "General session", cat: "Corporate", images: [
+    {src: "images/boston-scientific-1.webp", thumb: "thumbs/boston-scientific-1.webp", w: 2400, h: 1350},
+    {src: "images/boston-scientific-2.webp", thumb: "thumbs/boston-scientific-2.webp", w: 2400, h: 1350},
+  ]},
+  {title: "WeWorks", type: "General session", cat: "Corporate", images: [
+    {src: "images/weworks-1.webp", thumb: "thumbs/weworks-1.webp", w: 2250, h: 938},
+    {src: "images/weworks-2.webp", thumb: "thumbs/weworks-2.webp", w: 2250, h: 938},
+    {src: "images/weworks-3.webp", thumb: "thumbs/weworks-3.webp", w: 2250, h: 938},
+    {src: "images/weworks-4.webp", thumb: "thumbs/weworks-4.webp", w: 2250, h: 938},
+    {src: "images/weworks-5.webp", thumb: "thumbs/weworks-5.webp", w: 2250, h: 938},
+    {src: "images/weworks-6.webp", thumb: "thumbs/weworks-6.webp", w: 2250, h: 938},
+    {src: "images/weworks-7.webp", thumb: "thumbs/weworks-7.webp", w: 2250, h: 938},
+    {src: "images/weworks-8.webp", thumb: "thumbs/weworks-8.webp", w: 2500, h: 1042},
+    {src: "images/weworks-9.webp", thumb: "thumbs/weworks-9.webp", w: 2250, h: 938},
+    {src: "images/weworks-10.webp", thumb: "thumbs/weworks-10.webp", w: 2250, h: 938},
+  ]},
   {title: "ADP President's Club", type: "Awards and general session", cat: "Corporate", images: [
     {src: "images/adp-25.webp", thumb: "thumbs/adp-25.webp", w: 2500, h: 1408},
     {src: "images/adp3.webp", thumb: "thumbs/adp3.webp", w: 2500, h: 1250},
@@ -98,6 +125,8 @@ window.WORKS = [
     {src: "images/adppc23-v10-cam1.webp", thumb: "thumbs/adppc23-v10-cam1.webp", w: 2500, h: 784},
     {src: "images/adppc23-v10-cam2.webp", thumb: "thumbs/adppc23-v10-cam2.webp", w: 2500, h: 1218},
     {src: "images/adppc23-v2-cam1wide.webp", thumb: "thumbs/adppc23-v2-cam1wide.webp", w: 2500, h: 757},
+    {src: "images/adp-pc-whistler.webp", thumb: "thumbs/adp-pc-whistler.webp", w: 2500, h: 976},
+    {src: "images/adp-pc-hawaii.webp", thumb: "thumbs/adp-pc-hawaii.webp", w: 2500, h: 1352},
   ]},
   {title: "ADP Rethink", type: "General session", cat: "Corporate", images: [
     {src: "images/adprrethink.webp", thumb: "thumbs/adprrethink.webp", w: 2500, h: 1250},
@@ -139,9 +168,11 @@ window.WORKS = [
     {src: "images/nuance-roundtwo-awards-cam1.webp", thumb: "thumbs/nuance-roundtwo-awards-cam1.webp", w: 2500, h: 1193},
     {src: "images/nuance-roundtwo-walkin-cam1.webp", thumb: "thumbs/nuance-roundtwo-walkin-cam1.webp", w: 2500, h: 1250},
   ]},
-  {title: "Bread Financial", type: "Awards", cat: "Corporate", images: [
+  {title: "Bread Financial", type: "Awards and Hall of Fame", cat: "Corporate", images: [
     {src: "images/bread-awards-cam1-corrected-logo-dancefloor.webp", thumb: "thumbs/bread-awards-cam1-corrected-logo-dancefloor.webp", w: 2500, h: 1250},
     {src: "images/bread-awards-cam2-corrected-logo.webp", thumb: "thumbs/bread-awards-cam2-corrected-logo.webp", w: 2500, h: 1250},
+    {src: "images/bread-hof.webp", thumb: "thumbs/bread-hof.webp", w: 2500, h: 1612},
+    {src: "images/bread-hof-2.webp", thumb: "thumbs/bread-hof-2.webp", w: 1920, h: 815},
   ]},
   {title: "Alora", type: "General session", cat: "Corporate", images: [
     {src: "images/alora-option1-cam1-wash2.webp", thumb: "thumbs/alora-option1-cam1-wash2.webp", w: 2500, h: 1250},
@@ -199,6 +230,7 @@ window.WORKS = [
   ]},
   {title: "Xango", type: "Exhibit environment", cat: "Corporate", images: [
     {src: "images/alt-color-xango-store-reversescreen.webp", thumb: "thumbs/alt-color-xango-store-reversescreen.webp", w: 1224, h: 618},
+    {src: "images/xango-v1.webp", thumb: "thumbs/xango-v1.webp", w: 1224, h: 430},
   ]},
   {title: "LPL Financial", type: "General session", cat: "Corporate", images: [
     {src: "images/lplcamwide081307v1-copy.webp", thumb: "thumbs/lplcamwide081307v1-copy.webp", w: 1152, h: 403},
@@ -211,6 +243,72 @@ window.WORKS = [
     {src: "images/cke2010anniversary.webp", thumb: "thumbs/cke2010anniversary.webp", w: 1800, h: 603},
     {src: "images/cke-anniversary1.webp", thumb: "thumbs/cke-anniversary1.webp", w: 1200, h: 400},
   ]},
+  {title: "EMC", type: "General session", cat: "Corporate", images: [
+    {src: "images/emc-1.webp", thumb: "thumbs/emc-1.webp", w: 2500, h: 1070},
+    {src: "images/emc-2.webp", thumb: "thumbs/emc-2.webp", w: 2500, h: 996},
+  ]},
+  {title: "Gartner", type: "General session", cat: "Corporate", images: [
+    {src: "images/gartner.webp", thumb: "thumbs/gartner.webp", w: 2500, h: 1239},
+  ]},
+  {title: "Genmeds", type: "National sales meeting", cat: "Corporate", images: [
+    {src: "images/genmeds.webp", thumb: "thumbs/genmeds.webp", w: 2500, h: 1406},
+  ]},
+  {title: "Genentech", type: "Launch", cat: "Corporate", images: [
+    {src: "images/genentech.webp", thumb: "thumbs/genentech.webp", w: 2100, h: 1181},
+  ]},
+  {title: "Benjamin Moore", type: "General session", cat: "Corporate", images: [
+    {src: "images/benjamin-moore.webp", thumb: "thumbs/benjamin-moore.webp", w: 2500, h: 965},
+  ]},
+  {title: "Tribotec", type: "Launch", cat: "Corporate", images: [
+    {src: "images/tribotec.webp", thumb: "thumbs/tribotec.webp", w: 2500, h: 1017},
+  ]},
+  {title: "ADP iClub", type: "Incentive event", cat: "Corporate", images: [
+    {src: "images/adp-iclub.webp", thumb: "thumbs/adp-iclub.webp", w: 2500, h: 1559},
+  ]},
+  {title: "ADP", type: "Unleash Your Power", cat: "Corporate", images: [
+    {src: "images/adp.webp", thumb: "thumbs/adp.webp", w: 1008, h: 461},
+  ]},
+  {title: "AI Box", type: "Concept", cat: "Corporate", images: [
+    {src: "images/ai-box.webp", thumb: "thumbs/ai-box.webp", w: 2500, h: 1665},
+  ]},
+  {title: "Kodak", type: "Event", cat: "Corporate", images: [
+    {src: "images/kodak.webp", thumb: "thumbs/kodak.webp", w: 864, h: 463},
+  ]},
+  {title: "Interstate", type: "General session", cat: "Corporate", images: [
+    {src: "images/interstate.webp", thumb: "thumbs/interstate.webp", w: 1008, h: 315},
+  ]},
+  {title: "Red Lobster", type: "General session", cat: "Corporate", images: [
+    {src: "images/red-lobster.webp", thumb: "thumbs/red-lobster.webp", w: 640, h: 319},
+  ]},
+  {title: "MTV Music Awards", type: "Awards show", cat: "Broadcast & entertainment", images: [
+    {src: "images/mtv-music-awards.webp", thumb: "thumbs/mtv-music-awards.webp", w: 2500, h: 1328},
+  ]},
+  {title: "Mariah Carey", type: "NFL Kickoff", cat: "Broadcast & entertainment", images: [
+    {src: "images/mariah-carey.webp", thumb: "thumbs/mariah-carey.webp", w: 2500, h: 1406},
+  ]},
+  {title: "Elton John", type: "Chicago concert", cat: "Broadcast & entertainment", images: [
+    {src: "images/elton-john-1.webp", thumb: "thumbs/elton-john-1.webp", w: 2500, h: 1162},
+    {src: "images/elton-john-2.webp", thumb: "thumbs/elton-john-2.webp", w: 2500, h: 1458},
+    {src: "images/elton-john-3.webp", thumb: "thumbs/elton-john-3.webp", w: 2500, h: 1354},
+  ]},
+  {title: "Superboy", type: "Television", cat: "Broadcast & entertainment", images: [
+    {src: "images/superboy.webp", thumb: "thumbs/superboy.webp", w: 2500, h: 1054},
+  ]},
+  {title: "CultureQuest", type: "Television", cat: "Broadcast & entertainment", images: [
+    {src: "images/culturequest.webp", thumb: "thumbs/culturequest.webp", w: 2500, h: 1169},
+  ]},
+  {title: "The Killers", type: "Concert", cat: "Broadcast & entertainment", images: [
+    {src: "images/the-killers.webp", thumb: "thumbs/the-killers.webp", w: 2500, h: 1272},
+  ]},
+  {title: "MTV", type: "Television", cat: "Broadcast & entertainment", images: [
+    {src: "images/mtv.webp", thumb: "thumbs/mtv.webp", w: 2500, h: 1131},
+  ]},
+  {title: "Walt Disney World", type: "25th Anniversary castle", cat: "Broadcast & entertainment", images: [
+    {src: "images/walt-disney-world-1.webp", thumb: "thumbs/walt-disney-world-1.webp", w: 574, h: 864},
+    {src: "images/walt-disney-world-2.webp", thumb: "thumbs/walt-disney-world-2.webp", w: 566, h: 864},
+    {src: "images/walt-disney-world-3.webp", thumb: "thumbs/walt-disney-world-3.webp", w: 566, h: 864},
+    {src: "images/walt-disney-world-4.webp", thumb: "thumbs/walt-disney-world-4.webp", w: 574, h: 864},
+  ]},
   {title: "Red Eye Magazine", type: "New Year's Eve", cat: "Broadcast & entertainment", images: [
     {src: "images/chicago1.webp", thumb: "thumbs/chicago1.webp", w: 1500, h: 992},
   ]},
@@ -220,14 +318,16 @@ window.WORKS = [
   {title: "Libera Awards", type: "Awards show", cat: "Broadcast & entertainment", images: [
     {src: "images/v1-front.webp", thumb: "thumbs/v1-front.webp", w: 2500, h: 1250},
   ]},
-  {title: "Celebrity Cruises", type: "The 70s Revue", cat: "Broadcast & entertainment", images: [
+  {title: "Celebrity Cruises", type: "Theme revues", cat: "Broadcast & entertainment", images: [
     {src: "images/54.webp", thumb: "thumbs/54.webp", w: 864, h: 427},
+    {src: "images/cuba.webp", thumb: "thumbs/cuba.webp", w: 1000, h: 500},
   ]},
   {title: "Katy Perry", type: "Concert", cat: "Broadcast & entertainment", images: [
-    {src: "images/katy-perry.webp", thumb: "thumbs/katy-perry.webp", w: 2500, h: 976},
+    {src: "images/katy-perry-cam4.webp", thumb: "thumbs/katy-perry-cam4.webp", w: 886, h: 388},
   ]},
   {title: "Regis & Kelly", type: "Television", cat: "Broadcast & entertainment", images: [
     {src: "images/eyeworksrandk.webp", thumb: "thumbs/eyeworksrandk.webp", w: 2500, h: 1095},
+    {src: "images/regis-kelly-blue.webp", thumb: "thumbs/regis-kelly-blue.webp", w: 2500, h: 1232},
   ]},
   {title: "ABC", type: "Television", cat: "Broadcast & entertainment", images: [
     {src: "images/exclaim-abc-housecam-1-1.webp", thumb: "thumbs/exclaim-abc-housecam-1-1.webp", w: 2500, h: 866},
@@ -235,9 +335,6 @@ window.WORKS = [
   ]},
   {title: "Moulin Rouge", type: "Theme event", cat: "Broadcast & entertainment", images: [
     {src: "images/moulin-set.webp", thumb: "thumbs/moulin-set.webp", w: 1598, h: 799},
-  ]},
-  {title: "Cuba", type: "Theme event", cat: "Broadcast & entertainment", images: [
-    {src: "images/cuba.webp", thumb: "thumbs/cuba.webp", w: 1000, h: 500},
   ]},
   {title: "Queens", type: "Theme event", cat: "Broadcast & entertainment", images: [
     {src: "images/newqueens.webp", thumb: "thumbs/newqueens.webp", w: 2500, h: 977},
