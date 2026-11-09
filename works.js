@@ -35,8 +35,6 @@ window.WORKS = [
     {src: "images/telemundo-option3-cam2.webp", thumb: "thumbs/telemundo-option3-cam2.webp", w: 2500, h: 1285},
     {src: "images/telemundo-option3-cam2-rev2.webp", thumb: "thumbs/telemundo-option3-cam2-rev2.webp", w: 2500, h: 1286},
     {src: "images/telemundo-option3-cam3.webp", thumb: "thumbs/telemundo-option3-cam3.webp", w: 2500, h: 1285},
-    {src: "images/unnamed-12.webp", thumb: "thumbs/unnamed-12.webp", w: 1800, h: 1350},
-    {src: "images/unnamed-8.webp", thumb: "thumbs/unnamed-8.webp", w: 1800, h: 822},
     {src: "images/backgroundplate.webp", thumb: "thumbs/backgroundplate.webp", w: 2500, h: 1667},
     {src: "images/telemundo-upfront-2.webp", thumb: "thumbs/telemundo-upfront-2.webp", w: 2250, h: 749},
     {src: "images/telemundo-upfront-3.webp", thumb: "thumbs/telemundo-upfront-3.webp", w: 2250, h: 1050},
@@ -128,6 +126,8 @@ window.WORKS = [
     {src: "images/adppc23-v2-cam1wide.webp", thumb: "thumbs/adppc23-v2-cam1wide.webp", w: 2500, h: 757},
     {src: "images/adp-pc-whistler.webp", thumb: "thumbs/adp-pc-whistler.webp", w: 2500, h: 976},
     {src: "images/adp-pc-hawaii.webp", thumb: "thumbs/adp-pc-hawaii.webp", w: 2500, h: 1352},
+    {src: "images/unnamed-12.webp", thumb: "thumbs/unnamed-12.webp", w: 1800, h: 1350},
+    {src: "images/unnamed-8.webp", thumb: "thumbs/unnamed-8.webp", w: 1800, h: 822},
   ]},
   {title: "ADP Rethink", type: "General session", cat: "Corporate", images: [
     {src: "images/adprrethink.webp", thumb: "thumbs/adprrethink.webp", w: 2500, h: 1250},
