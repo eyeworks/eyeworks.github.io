@@ -104,6 +104,7 @@ window.WORKS = [
     {src: "images/adppc24-cruise-cam1-61124.webp", thumb: "thumbs/adppc24-cruise-cam1-61124.webp", w: 2500, h: 1429},
     {src: "images/adppc24-cruise-cam2-61124.webp", thumb: "thumbs/adppc24-cruise-cam2-61124.webp", w: 2500, h: 1379},
     {src: "images/adpromecontempoclose.webp", thumb: "thumbs/adpromecontempoclose.webp", w: 2500, h: 1000},
+    {src: "images/adpromecontempobanquet.webp", thumb: "thumbs/adpromecontempobanquet.webp", w: 2500, h: 1000},
     {src: "images/adpromecontempoparty.webp", thumb: "thumbs/adpromecontempoparty.webp", w: 2500, h: 1000},
     {src: "images/adpromecontemposo.webp", thumb: "thumbs/adpromecontemposo.webp", w: 2500, h: 1000},
     {src: "images/adpromeglamoclose.webp", thumb: "thumbs/adpromeglamoclose.webp", w: 2500, h: 1000},
@@ -129,6 +130,9 @@ window.WORKS = [
     {src: "images/adpdigitalsales-v2-2-cam1-walkin-lowrezled.webp", thumb: "thumbs/adpdigitalsales-v2-2-cam1-walkin-lowrezled.webp", w: 2500, h: 1296},
     {src: "images/adpdigitalsales-v2-2-cam2-awards-lowrezled.webp", thumb: "thumbs/adpdigitalsales-v2-2-cam2-awards-lowrezled.webp", w: 2500, h: 1296},
     {src: "images/adpdigitalsales-v2-2-cam2-walkin-lowrezled.webp", thumb: "thumbs/adpdigitalsales-v2-2-cam2-walkin-lowrezled.webp", w: 2500, h: 1296},
+  ]},
+  {title: "ADP Unleash Your Power", type: "General session", cat: "Corporate", images: [
+    {src: "images/adp-unleashyourpower.webp", thumb: "thumbs/adp-unleashyourpower.webp", w: 1008, h: 461},
   ]},
   {title: "Mastercard", type: "General session", cat: "Corporate", images: [
     {src: "images/mastercard-business.webp", thumb: "thumbs/mastercard-business.webp", w: 2500, h: 1149},
@@ -211,6 +215,10 @@ window.WORKS = [
     {src: "images/emc-1.webp", thumb: "thumbs/emc-1.webp", w: 2500, h: 1070},
     {src: "images/emc-2.webp", thumb: "thumbs/emc-2.webp", w: 2500, h: 996},
   ]},
+  {title: "Boston Scientific", type: "Team Extreme", cat: "Corporate", images: [
+    {src: "images/bostonscientific-teamextreme-cam1.webp", thumb: "thumbs/bostonscientific-teamextreme-cam1.webp", w: 2400, h: 1350},
+    {src: "images/bostonscientific-teamextreme-iso.webp", thumb: "thumbs/bostonscientific-teamextreme-iso.webp", w: 2400, h: 1350},
+  ]},
   {title: "Gartner", type: "General session", cat: "Corporate", images: [
     {src: "images/gartner.webp", thumb: "thumbs/gartner.webp", w: 2500, h: 1239},
   ]},
@@ -231,6 +239,9 @@ window.WORKS = [
   ]},
   {title: "AI Box", type: "Concept", cat: "Corporate", images: [
     {src: "images/ai-box.webp", thumb: "thumbs/ai-box.webp", w: 2500, h: 1665},
+  ]},
+  {title: "Lounge Session", type: "Concept", cat: "Corporate", images: [
+    {src: "images/lounge-session-cam1.webp", thumb: "thumbs/lounge-session-cam1.webp", w: 2500, h: 1058},
   ]},
   {title: "MTV Music Awards", type: "Awards show", cat: "Broadcast & entertainment", images: [
     {src: "images/mtv-music-awards.webp", thumb: "thumbs/mtv-music-awards.webp", w: 2500, h: 1328},
