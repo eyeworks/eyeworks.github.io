@@ -23,7 +23,6 @@ window.WORKS = [
   {title: "Telemundo Upfront", type: "Broadcast upfront", cat: "Broadcast & entertainment", hero: true, images: [
     {src: "images/tmundo19-oculus-exterior1.webp", thumb: "thumbs/tmundo19-oculus-exterior1.webp", w: 2500, h: 1316},
     {src: "images/tmundo19-oculus-noncomp-cam6.webp", thumb: "thumbs/tmundo19-oculus-noncomp-cam6.webp", w: 2500, h: 1238},
-    {src: "images/49731861-679798432413979-8448104249216204800-n-679798425747313.webp", thumb: "thumbs/49731861-679798432413979-8448104249216204800-n-679798425747313.webp", w: 1867, h: 960},
     {src: "images/140513v3rev1cam1scene1.webp", thumb: "thumbs/140513v3rev1cam1scene1.webp", w: 2250, h: 717},
     {src: "images/telemundo24-3-18-24-cam1.webp", thumb: "thumbs/telemundo24-3-18-24-cam1.webp", w: 2500, h: 1025},
     {src: "images/telemundoup23-v1-0-cam2.webp", thumb: "thumbs/telemundoup23-v1-0-cam2.webp", w: 2500, h: 1109},
@@ -64,9 +63,6 @@ window.WORKS = [
     {src: "images/01d41d41099783-5798c376af929.webp", thumb: "thumbs/01d41d41099783-5798c376af929.webp", w: 1920, h: 762},
     {src: "images/663cb141099783-5798c376aff30.webp", thumb: "thumbs/663cb141099783-5798c376aff30.webp", w: 1920, h: 960},
   ]},
-  {title: "Legend Biotech", type: "Corporate event", cat: "Corporate", images: [
-    {src: "images/14124347-10210889498781285-6934802183116504212-o.webp", thumb: "thumbs/14124347-10210889498781285-6934802183116504212-o.webp", w: 1800, h: 643},
-  ]},
   {title: "Vista", type: "General session", cat: "Corporate", hero: true, images: [
     {src: "images/vista24-v1-cam1-rev1.webp", thumb: "thumbs/vista24-v1-cam1-rev1.webp", w: 2500, h: 1256},
     {src: "images/vista24-v1-cam2-rev1.webp", thumb: "thumbs/vista24-v1-cam2-rev1.webp", w: 2500, h: 1256},
@@ -83,10 +79,6 @@ window.WORKS = [
   ]},
   {title: "Ernst & Young", type: "General session", cat: "Corporate", images: [
     {src: "images/ernst-young.webp", thumb: "thumbs/ernst-young.webp", w: 2500, h: 1000},
-  ]},
-  {title: "Boston Scientific", type: "General session", cat: "Corporate", images: [
-    {src: "images/boston-scientific-1.webp", thumb: "thumbs/boston-scientific-1.webp", w: 2400, h: 1350},
-    {src: "images/boston-scientific-2.webp", thumb: "thumbs/boston-scientific-2.webp", w: 2400, h: 1350},
   ]},
   {title: "WeWorks", type: "General session", cat: "Corporate", images: [
     {src: "images/weworks-1.webp", thumb: "thumbs/weworks-1.webp", w: 2250, h: 938},
@@ -126,8 +118,6 @@ window.WORKS = [
     {src: "images/adppc23-v2-cam1wide.webp", thumb: "thumbs/adppc23-v2-cam1wide.webp", w: 2500, h: 757},
     {src: "images/adp-pc-whistler.webp", thumb: "thumbs/adp-pc-whistler.webp", w: 2500, h: 976},
     {src: "images/adp-pc-hawaii.webp", thumb: "thumbs/adp-pc-hawaii.webp", w: 2500, h: 1352},
-    {src: "images/unnamed-12.webp", thumb: "thumbs/unnamed-12.webp", w: 1800, h: 1350},
-    {src: "images/unnamed-8.webp", thumb: "thumbs/unnamed-8.webp", w: 1800, h: 822},
   ]},
   {title: "ADP Rethink", type: "General session", cat: "Corporate", images: [
     {src: "images/adprrethink.webp", thumb: "thumbs/adprrethink.webp", w: 2500, h: 1250},
@@ -135,7 +125,6 @@ window.WORKS = [
     {src: "images/rethink25.webp", thumb: "thumbs/rethink25.webp", w: 2048, h: 1254},
   ]},
   {title: "ADP Digital Sales", type: "Awards", cat: "Corporate", images: [
-    {src: "images/adpsalesconcept1cam1.webp", thumb: "thumbs/adpsalesconcept1cam1.webp", w: 1500, h: 500},
     {src: "images/adpdigitalsales-v2-2-cam1-awards-lowrezled.webp", thumb: "thumbs/adpdigitalsales-v2-2-cam1-awards-lowrezled.webp", w: 2500, h: 1296},
     {src: "images/adpdigitalsales-v2-2-cam1-walkin-lowrezled.webp", thumb: "thumbs/adpdigitalsales-v2-2-cam1-walkin-lowrezled.webp", w: 2500, h: 1296},
     {src: "images/adpdigitalsales-v2-2-cam2-awards-lowrezled.webp", thumb: "thumbs/adpdigitalsales-v2-2-cam2-awards-lowrezled.webp", w: 2500, h: 1296},
@@ -205,44 +194,18 @@ window.WORKS = [
     {src: "images/bjs-v2-cam2.webp", thumb: "thumbs/bjs-v2-cam2.webp", w: 2500, h: 1054},
     {src: "images/bjs-v3-cam2.webp", thumb: "thumbs/bjs-v3-cam2.webp", w: 2500, h: 1123},
   ]},
-  {title: "Amazon", type: "Event", cat: "Corporate", images: [
-    {src: "images/amazonshow.webp", thumb: "thumbs/amazonshow.webp", w: 1440, h: 672},
-    {src: "images/amazonshow2.webp", thumb: "thumbs/amazonshow2.webp", w: 1800, h: 1500},
-  ]},
   {title: "Mercedes-Benz", type: "Product reveal", cat: "Corporate", images: [
     {src: "images/mercedes-benz-1.webp", thumb: "thumbs/mercedes-benz-1.webp", w: 2500, h: 1072},
     {src: "images/mercedes-benz-2.webp", thumb: "thumbs/mercedes-benz-2.webp", w: 2500, h: 1072},
   ]},
-  {title: "Kia", type: "Product reveal", cat: "Corporate", images: [
-    {src: "images/gokia-alt-v2.webp", thumb: "thumbs/gokia-alt-v2.webp", w: 1224, h: 391},
-  ]},
   {title: "Goodyear", type: "Gala and general session", cat: "Corporate", images: [
     {src: "images/prostagegoodyeargala.webp", thumb: "thumbs/prostagegoodyeargala.webp", w: 2500, h: 833},
-    {src: "images/prostagegoodyeargeneralsession.webp", thumb: "thumbs/prostagegoodyeargeneralsession.webp", w: 1800, h: 600},
   ]},
   {title: "Department of Defense", type: "General session", cat: "Corporate", images: [
     {src: "images/prostagedodlevel1cam2.webp", thumb: "thumbs/prostagedodlevel1cam2.webp", w: 2250, h: 788},
   ]},
-  {title: "Bridgestone", type: "General session", cat: "Corporate", images: [
-    {src: "images/bridgestonecrossroad.webp", thumb: "thumbs/bridgestonecrossroad.webp", w: 1800, h: 661},
-  ]},
-  {title: "Organo", type: "General session", cat: "Corporate", images: [
-    {src: "images/organo-stage.webp", thumb: "thumbs/organo-stage.webp", w: 1600, h: 672},
-  ]},
-  {title: "Xango", type: "Exhibit environment", cat: "Corporate", images: [
-    {src: "images/alt-color-xango-store-reversescreen.webp", thumb: "thumbs/alt-color-xango-store-reversescreen.webp", w: 1224, h: 618},
-    {src: "images/xango-v1.webp", thumb: "thumbs/xango-v1.webp", w: 1224, h: 430},
-  ]},
-  {title: "LPL Financial", type: "General session", cat: "Corporate", images: [
-    {src: "images/lplcamwide081307v1-copy.webp", thumb: "thumbs/lplcamwide081307v1-copy.webp", w: 1152, h: 403},
-    {src: "images/lplcamwide081407altcolorv1.webp", thumb: "thumbs/lplcamwide081407altcolorv1.webp", w: 1152, h: 458},
-  ]},
   {title: "Carlson Summit", type: "Gala", cat: "Corporate", images: [
     {src: "images/carlsonsummit08galascreen.webp", thumb: "thumbs/carlsonsummit08galascreen.webp", w: 2500, h: 1406},
-  ]},
-  {title: "CKE Anniversary", type: "Gala", cat: "Corporate", images: [
-    {src: "images/cke2010anniversary.webp", thumb: "thumbs/cke2010anniversary.webp", w: 1800, h: 603},
-    {src: "images/cke-anniversary1.webp", thumb: "thumbs/cke-anniversary1.webp", w: 1200, h: 400},
   ]},
   {title: "EMC", type: "General session", cat: "Corporate", images: [
     {src: "images/emc-1.webp", thumb: "thumbs/emc-1.webp", w: 2500, h: 1070},
@@ -266,31 +229,14 @@ window.WORKS = [
   {title: "ADP iClub", type: "Incentive event", cat: "Corporate", images: [
     {src: "images/adp-iclub.webp", thumb: "thumbs/adp-iclub.webp", w: 2500, h: 1559},
   ]},
-  {title: "ADP", type: "Unleash Your Power", cat: "Corporate", images: [
-    {src: "images/adp.webp", thumb: "thumbs/adp.webp", w: 1008, h: 461},
-  ]},
   {title: "AI Box", type: "Concept", cat: "Corporate", images: [
     {src: "images/ai-box.webp", thumb: "thumbs/ai-box.webp", w: 2500, h: 1665},
-  ]},
-  {title: "Kodak", type: "Event", cat: "Corporate", images: [
-    {src: "images/kodak.webp", thumb: "thumbs/kodak.webp", w: 864, h: 463},
-  ]},
-  {title: "Interstate", type: "General session", cat: "Corporate", images: [
-    {src: "images/interstate.webp", thumb: "thumbs/interstate.webp", w: 1008, h: 315},
-  ]},
-  {title: "Red Lobster", type: "General session", cat: "Corporate", images: [
-    {src: "images/red-lobster.webp", thumb: "thumbs/red-lobster.webp", w: 640, h: 319},
   ]},
   {title: "MTV Music Awards", type: "Awards show", cat: "Broadcast & entertainment", images: [
     {src: "images/mtv-music-awards.webp", thumb: "thumbs/mtv-music-awards.webp", w: 2500, h: 1328},
   ]},
   {title: "Mariah Carey", type: "NFL Kickoff", cat: "Broadcast & entertainment", images: [
     {src: "images/mariah-carey.webp", thumb: "thumbs/mariah-carey.webp", w: 2500, h: 1406},
-  ]},
-  {title: "Elton John", type: "Chicago concert", cat: "Broadcast & entertainment", images: [
-    {src: "images/elton-john-1.webp", thumb: "thumbs/elton-john-1.webp", w: 2500, h: 1162},
-    {src: "images/elton-john-2.webp", thumb: "thumbs/elton-john-2.webp", w: 2500, h: 1458},
-    {src: "images/elton-john-3.webp", thumb: "thumbs/elton-john-3.webp", w: 2500, h: 1354},
   ]},
   {title: "Superboy", type: "Television", cat: "Broadcast & entertainment", images: [
     {src: "images/superboy.webp", thumb: "thumbs/superboy.webp", w: 2500, h: 1054},
@@ -304,40 +250,18 @@ window.WORKS = [
   {title: "MTV", type: "Television", cat: "Broadcast & entertainment", images: [
     {src: "images/mtv.webp", thumb: "thumbs/mtv.webp", w: 2500, h: 1131},
   ]},
-  {title: "Walt Disney World", type: "25th Anniversary castle", cat: "Broadcast & entertainment", images: [
-    {src: "images/walt-disney-world-1.webp", thumb: "thumbs/walt-disney-world-1.webp", w: 574, h: 864},
-    {src: "images/walt-disney-world-2.webp", thumb: "thumbs/walt-disney-world-2.webp", w: 566, h: 864},
-    {src: "images/walt-disney-world-3.webp", thumb: "thumbs/walt-disney-world-3.webp", w: 566, h: 864},
-    {src: "images/walt-disney-world-4.webp", thumb: "thumbs/walt-disney-world-4.webp", w: 574, h: 864},
-  ]},
-  {title: "Red Eye Magazine", type: "New Year's Eve", cat: "Broadcast & entertainment", images: [
-    {src: "images/chicago1.webp", thumb: "thumbs/chicago1.webp", w: 1500, h: 992},
-  ]},
   {title: "NFL Kickoff", type: "L.A. Rams", cat: "Broadcast & entertainment", images: [
     {src: "images/cam-1.webp", thumb: "thumbs/cam-1.webp", w: 2500, h: 738},
   ]},
   {title: "Libera Awards", type: "Awards show", cat: "Broadcast & entertainment", images: [
     {src: "images/v1-front.webp", thumb: "thumbs/v1-front.webp", w: 2500, h: 1250},
   ]},
-  {title: "Celebrity Cruises", type: "Theme revues", cat: "Broadcast & entertainment", images: [
-    {src: "images/54.webp", thumb: "thumbs/54.webp", w: 864, h: 427},
-    {src: "images/cuba.webp", thumb: "thumbs/cuba.webp", w: 1000, h: 500},
-  ]},
-  {title: "Katy Perry", type: "Concert", cat: "Broadcast & entertainment", images: [
-    {src: "images/katy-perry-cam4.webp", thumb: "thumbs/katy-perry-cam4.webp", w: 886, h: 388},
-  ]},
   {title: "Regis & Kelly", type: "Television", cat: "Broadcast & entertainment", images: [
     {src: "images/eyeworksrandk.webp", thumb: "thumbs/eyeworksrandk.webp", w: 2500, h: 1095},
     {src: "images/regis-kelly-blue.webp", thumb: "thumbs/regis-kelly-blue.webp", w: 2500, h: 1232},
   ]},
-  {title: "Moulin Rouge", type: "Theme event", cat: "Broadcast & entertainment", images: [
-    {src: "images/moulin-set.webp", thumb: "thumbs/moulin-set.webp", w: 1598, h: 799},
-  ]},
   {title: "Queens of Comedy", type: "Showtime Networks", cat: "Broadcast & entertainment", images: [
     {src: "images/newqueens.webp", thumb: "thumbs/newqueens.webp", w: 2500, h: 977},
-  ]},
-  {title: "Price Waterhouse", type: "General session", cat: "Corporate", images: [
-    {src: "images/price-waterhouse.webp", thumb: "thumbs/price-waterhouse.webp", w: 1800, h: 750},
   ]},
 ];
 
@@ -387,4 +311,28 @@ window.REEL = [
   ["Gartner", "69403755"],
   ["EMC", "69403753"],
   ["Ernst & Young", "67323053"],
+];
+
+/* Clients kept on the client wall without a project tile (images pulled until better ones exist). */
+window.CLIENTS = [
+  "Legend Biotech",
+  "Boston Scientific",
+  "Amazon",
+  "Kia",
+  "Bridgestone",
+  "Organo",
+  "Xango",
+  "LPL Financial",
+  "CKE",
+  "ADP",
+  "Kodak",
+  "Interstate",
+  "Red Lobster",
+  "Elton John",
+  "Walt Disney World",
+  "Red Eye Magazine",
+  "Celebrity Cruises",
+  "Katy Perry",
+  "Moulin Rouge",
+  "Price Waterhouse",
 ];

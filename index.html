@@ -272,7 +272,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
 </div>
 
 <script src="logos.js?v=202611091500"></script>
-<script src="works.js?v=202611081820"></script>
+<script src="works.js?v=202611091830"></script>
 <script>
 (function(){
 const W = window.WORKS || [], R = window.REEL || [];
@@ -322,6 +322,7 @@ const norm = s => s.toLowerCase().replace(/[^a-z0-9& ]/g, '').replace(/\b(\d+|up
 const seen = new Map();
 W.forEach((w, i) => { if (w.title === 'More work') return; const n = w.title.replace(/ (Upfront|Explore|President's Club|Rethink|Digital Sales|Anniversary|Summit)$/, ''); const k = norm(n); if (!seen.has(k)) seen.set(k, {name: n, i}); });
 R.forEach(([t]) => { const n = t.replace(/\s*\d+$/, '').replace(/ (Upfront|Product Launch|Launch|Test Center|Leadership Meeting|World|Dealers|Transform|SOTB|Animal Health)( \d+)?$/i, '').replace(/^ADP.*/, 'ADP').replace(/^J&J$/, 'Johnson & Johnson').replace(/^BMW \/ MINI$/, 'MINI'); const k = norm(n); if (k && !seen.has(k) && !seen.has(norm(n.split(' ')[0]))) seen.set(k, {name: n, i: -1}); });
+(window.CLIENTS || []).forEach(n => { const k = norm(n); if (k && !seen.has(k)) seen.set(k, {name: n, i: -1}); });
 const clients = [...seen.values()].sort((a, b) => a.name.localeCompare(b.name));
 $('#wall').innerHTML = clients.map(c => `<li>${c.i >= 0 ? `<a role="button" tabindex="0" data-i="${c.i}">${esc(c.name)}</a>` : esc(c.name)}</li>`).join('');
 $('#wall').onclick = e => { const a = e.target.closest('a[data-i]'); if (a) openViewer(+a.dataset.i); };
