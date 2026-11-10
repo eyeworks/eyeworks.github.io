@@ -329,7 +329,6 @@ window.CLIENTS = [
   "Interstate",
   "Red Lobster",
   "Elton John",
-  "Walt Disney World",
   "Red Eye Magazine",
   "Celebrity Cruises",
   "Katy Perry",
